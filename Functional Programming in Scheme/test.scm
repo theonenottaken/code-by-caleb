@@ -1,0 +1,5 @@
+(starts-with "ab" "abaaaaaa")
+;(sum-of-pairs-start-with "sh" '((cons "sheep" 2) (cons "show" 5) (cons "map" 3)))
+(zip '(2 3 5) '(8 6 4))
+(rotate '(1 2 3 4) 4)
+(quicksort '(5 4 66 22 6 7 2))
