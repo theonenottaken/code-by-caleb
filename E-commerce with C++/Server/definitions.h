@@ -1,0 +1,23 @@
+#define TERMINATE -1
+#define INPUT_MOVIE 1
+#define INPUT_PROFF 2
+#define ADD_PROFF_TO_MOVIE 3
+#define ADD_GENRE_TO_MOVIE 4
+#define DEFINE_SORT 5
+#define PRINT_CAST_OF_MOVIE 6
+#define PRINT_MOVIE 7
+#define JOIN_MOVIES 8
+#define PRINT_MOVIES_OF_PROFF 9
+#define DELETE_MOVIE 10
+#define DELETE_PROFF 11
+#define DELETE_PROFF_FROM_MOVIE 12
+#define PRINT_ALL_MOVIES 13
+#define PRINT_ALL_PROFFS 14
+#define PRINT_MOVIES_OF_GENRE 15
+#define BY_ID 1
+#define BY_AGE 2
+#define BY_NUM_OF_MOVIES 3
+#define NEW_LINE 10
+
+#define UDP_CONN '0'
+#define TCP_CONN '1'
