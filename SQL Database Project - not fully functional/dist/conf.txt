@@ -1,3 +1,0 @@
-jdbc:mysql://db4free.net:3306/benwex93database
-benwex93
-mordechai
