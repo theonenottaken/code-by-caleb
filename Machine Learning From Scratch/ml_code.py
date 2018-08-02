@@ -110,9 +110,9 @@ def validate(params, valid_x, valid_y):
 	return avg_loss, accuracy 
 
 # text file contains 55,000 examples. For speed and ease, I only train on 20,000 of them.
-train_x = np.loadtxt("train_x", skiprows=35000)
+train_x = np.loadtxt("train_x")
 train_x = train_x * (1.0 / 255.0)
-train_y = np.loadtxt("train_y", skiprows=35000)
+train_y = np.loadtxt("train_y")
 test_x = np.loadtxt("test_x")
 
 SIZE = np.shape(train_x)[0]
